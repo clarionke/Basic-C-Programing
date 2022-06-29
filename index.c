@@ -47,7 +47,7 @@ int main()
 
    // BUILDING A MAD LIBS GAME
 
-   char color[20];
+   /**char color[20];
    char pluralNoun[20];
    char celebrityF[20];
    char celebrityL[20];
@@ -61,8 +61,22 @@ int main()
 
    printf("Roses are %s\n", color);
    printf("%s are blue\n", pluralNoun);
-   printf("I love %s %s\n", celebrityF, celebrityL);
+   printf("I love %s %s\n", celebrityF, celebrityL);**/
 
+   // WORKING WITH FUNCTIONS
+
+  /** sayHi("Mike", 40);
+   sayHi("Joseph", 23);
+   sayHi("Jemimah", 20);
+
+**/
 
     return 0;
+}
+
+//void sayHi (char name[], int age){
+//    printf("Hello %s, You are %d\n", name, age);
+
+
+
 }

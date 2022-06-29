@@ -35,13 +35,34 @@ int main()
    fgets(name,30, stdin);
    printf("Your name is %s", name);**/
 
-   double num1;
+   // BUILDING A BASIC CALCULATOR
+
+  /** double num1;
    double num2;
    printf("Enter the first number: ");
    scanf("%lf", &num1);
    printf("Enter the second number: ");
    scanf("%lf", &num2);
-   printf("Answer: %f", num1 + num2);
+   printf("Answer: %f", num1 + num2);**/
+
+   // BUILDING A MAD LIBS GAME
+
+   char color[20];
+   char pluralNoun[20];
+   char celebrityF[20];
+   char celebrityL[20];
+
+   printf("Enter your favorite color: ");
+   scanf("%s", color);
+   printf("Enter your plural noun: ");
+   scanf("%s", pluralNoun);
+   printf("Enter your favorite celebraty: ");
+   scanf("%s%s", celebrityF,celebrityL);
+
+   printf("Roses are %s\n", color);
+   printf("%s are blue\n", pluralNoun);
+   printf("I love %s %s\n", celebrityF, celebrityL);
+
 
     return 0;
 }

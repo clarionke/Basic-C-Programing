@@ -22,7 +22,18 @@ int main()
     //printf("The price of white flour is now ksh %f. The price is increasing everyday", 250.90);
 
     //Mathematical operation
-    printf("There are %d students who attended C programming class", 2 + 8);
+   // printf("There are %d students who attended C programming class", 2 + 8);
+
+   // GETTING INPUT FROM THE USER.
+  /** int age;
+   printf("Enter Your Age: ");
+   scanf("%d", &age);
+   printf("Your are %d Years old", age);
+   **/
+   char name[20];
+   printf("Enter Your name: ");
+   fgets(name,30, stdin);
+   printf("Your name is %s", name);
 
     return 0;
 }

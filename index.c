@@ -12,7 +12,17 @@ int main()
 
     printf("He really liked the name %s\n",characterName);
     printf("but did not like being %d.\n", characterAge);**/
-    printf("My favorite %s is %d","Number", 12);
+
+    //PRINTING NUMBERS AND STRING
+
+    //printf("My favorite %s is %d","Number", 12);
+
+    // PRINTING FLOAT
+
+    //printf("The price of white flour is now ksh %f. The price is increasing everyday", 250.90);
+
+    //Mathematical operation
+    printf("There are %d students who attended C programming class", 2 + 8);
 
     return 0;
 }

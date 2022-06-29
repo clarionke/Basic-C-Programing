@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1656467478 source:d:\desktop\clarion technology\basic-c-programming\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1656466382 source:d:\desktop\clarion technology\basic-c-programming\index.c
+	<stdio.h>
+	<stdlib.h>
+
+1656467465 source:d:\desktop\clarion technology\basic-c-programming\printf.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,8 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// RETURN STATEMENT IN C PROGRAMMING
+
+double cude(double num){
+    double result = num * num * num;
+    return result;
+
+
+}
 int main()
 {
+    printf(" Answer: %f", cude(3.0));
    /** char characterName[] = "kamau";
     int characterAge = 85;
     printf("There once was a man named %s\n", characterName);
@@ -15,16 +24,17 @@ int main()
 
     //PRINTING NUMBERS AND STRING
 
-    //printf("My favorite %s is %d","Number", 12);
+    /**printf("My favorite %s is %d","Number", 12);
 
-    // PRINTING FLOAT
+     PRINTING FLOAT
 
-    //printf("The price of white flour is now ksh %f. The price is increasing everyday", 250.90);
+    printf("The price of white flour is now ksh %f. The price is increasing everyday", 250.90);**/
 
     //Mathematical operation
-   // printf("There are %d students who attended C programming class", 2 + 8);
+   /** printf("There are %d students who attended C programming class", 2 + 8);**/
 
    // GETTING INPUT FROM THE USER.
+
   /** int age;
    printf("Enter Your Age: ");
    scanf("%d", &age);
@@ -74,9 +84,10 @@ int main()
     return 0;
 }
 
-//void sayHi (char name[], int age){
-//    printf("Hello %s, You are %d\n", name, age);
+/**void sayHi (char name[], int age){
+    printf("Hello %s, You are %d\n", name, age);**/
 
 
 
-}
+
+//}
